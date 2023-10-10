@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_custom_button">
+
+    <fragment
+        android:id="@+id/nav_custom_button"
+        android:name="com.mc7.mycustomapp.ui.CustomButtonFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_custom_button" />
+
+    <fragment
+        android:id="@+id/nav_canvas"
+        android:name="com.mc7.mycustomapp.ui.CanvasFragment"
+        android:label="@string/menu_canvas"
+        tools:layout="@layout/fragment_canvas" />
+
+    <fragment
+        android:id="@+id/nav_webview"
+        android:name="com.mc7.mycustomapp.ui.WebViewFragment"
+        android:label="@string/menu_webview"
+        tools:layout="@layout/fragment_webview" />
+    <fragment
+        android:id="@+id/nav_motion"
+        android:name="com.mc7.mycustomapp.ui.motionlayout.MotionLayoutFragment"
+        android:label="@string/motion_layout"
+        tools:layout="@layout/fragment_motion_layout"/>
+</navigation>

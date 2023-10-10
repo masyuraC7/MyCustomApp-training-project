@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_custom_button"
+            android:icon="@drawable/ic_menu_custom_view"
+            android:title="@string/menu_custom_button" />
+        <item
+            android:id="@+id/nav_canvas"
+            android:icon="@drawable/ic_menu_canvas"
+            android:title="@string/menu_canvas" />
+        <item
+            android:id="@+id/nav_webview"
+            android:icon="@drawable/ic_menu_webview"
+            android:title="@string/menu_webview" />
+        <item
+            android:id="@+id/nav_motion"
+            android:icon="@drawable/ic_menu_motion"
+            android:title="@string/motion_layout" />
+    </group>
+</menu>
